@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+       #divOne{
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       } 
+      
+     .childDiv{
+        width: 30%;
+        height: 100px;
+     }  
+     #divTwo{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+
+     }
+   #divTwo p{
+    text-align: center;
+   }
+     #divThree{
+        background-color: beige;
+     }
+     #divFour{
+        background-color: brown;
+     }
+    </style>
+</head>
+<body>
+  <div id="divOne">
+    <div id="divTwo" class="childDiv">
+        <h1>Div One</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, saepe?</p>
+    </div>
+    <div id="divThree" class="childDiv"></div>
+    <div id="divFour" class="childDiv"></div>
+  </div>
+</body>
+</html>

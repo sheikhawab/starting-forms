@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  #parent{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    /* margin-inline: 33%; */
+    background-color: darkcyan;
+  }
+  #parent button { color: aquamarine;
+    background-color: black;
+
+  }
+.container{
+    display: flex;
+    align-items: center;
+    border: solid;
+    justify-content: space-between;
+}
+.A{
+    
+    border: solid;
+    background-color: aqua;
+    align-items: center;
+    width: 10cm;
+    height: 10cm; 
+    
+}
+    </style>
+</head>
+<body>
+    <nav id="parent" >
+        <button id="callone">home</button>
+        <button id="calltwo">menu</button>
+        <button id="callthree" >contact us</button>
+        </nav>
+    <div id="main" class="container">
+        
+        <div id="callone" class="A"></div>
+        <div id="calltwo" class="A"></div>
+        <div id="callthree" class="A"></div>
+    </div>
+    
+</body>
+</html>
